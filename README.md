@@ -2,7 +2,11 @@
 This project sets up a complete monitoring environment using Docker Compose, including Joomla CMS instances with both MySQL and PostgreSQL support, Prometheus for metric collection, Grafana for visualization, and related exporters.
 
 🧱 Stack Components
-Joomla: Two separate CMS instances (one with MySQL, one with PostgreSQL)
+Joomla: Two separate CMS instances
+
+One with MySQL
+
+One with PostgreSQL
 
 MySQL & PostgreSQL: Database services
 
@@ -26,8 +30,7 @@ bash
 Kopyala
 Düzenle
 docker-compose up -d
-Access the web interfaces:
-
+🌐 Access Web Interfaces
 Joomla (MySQL): http://localhost:8081
 
 Joomla (PostgreSQL): http://localhost:8082
@@ -38,4 +41,8 @@ Grafana: http://localhost:3000
 
 📈 Grafana Dashboard
 You can visualize MySQL and PostgreSQL metrics directly in Grafana.
-Default credentials: admin / admin
+Default credentials:
+
+Username: admin
+
+Password: admin
