@@ -1,48 +1,56 @@
-📊 CMS Monitoring Stack with Prometheus & Grafana
-This project sets up a complete monitoring environment using Docker Compose, including Joomla CMS instances with both MySQL and PostgreSQL support, Prometheus for metric collection, Grafana for visualization, and related exporters.
+# 📊 CMS Monitoring Stack with Prometheus & Grafana
 
-🧱 Stack Components
-Joomla: Two separate CMS instances
+This project sets up a complete monitoring environment using **Docker Compose**, including **Joomla CMS** instances with both **MySQL** and **PostgreSQL** support, **Prometheus** for metric collection, **Grafana** for visualization, and related exporters.
 
-One with MySQL
+---
 
-One with PostgreSQL
+## 🧱 Stack Components
 
-MySQL & PostgreSQL: Database services
+* **Joomla**: Two separate CMS instances
 
-Prometheus: Metrics collection
+  * One with **MySQL**
+  * One with **PostgreSQL**
 
-Grafana: Metrics visualization
+* **MySQL & PostgreSQL**: Database services
 
-mysqld_exporter & postgres_exporter: Exporters for database metrics
+* **Prometheus**: Metrics collection
 
-🚀 Getting Started
+* **Grafana**: Metrics visualization
+
+* **mysqld\_exporter & postgres\_exporter**: Exporters for database metrics
+
+---
+
+## 🚀 Getting Started
+
 Clone the repository:
 
-bash
-Kopyala
-Düzenle
+```bash
 git clone https://github.com/your-username/cms-monitoring-stack.git
 cd cms-monitoring-stack
+```
+
 Start the services:
 
-bash
-Kopyala
-Düzenle
+```bash
 docker-compose up -d
-🌐 Access Web Interfaces
-Joomla (MySQL): http://localhost:8081
+```
 
-Joomla (PostgreSQL): http://localhost:8082
+---
 
-Prometheus: http://localhost:9090
+## 🌐 Access Web Interfaces
 
-Grafana: http://localhost:3000
+* Joomla (MySQL): [http://localhost:8081](http://localhost:8081)
+* Joomla (PostgreSQL): [http://localhost:8082](http://localhost:8082)
+* Prometheus: [http://localhost:9090](http://localhost:9090)
+* Grafana: [http://localhost:3000](http://localhost:3000)
 
-📈 Grafana Dashboard
-You can visualize MySQL and PostgreSQL metrics directly in Grafana.
-Default credentials:
+---
 
-Username: admin
+## 📊 Grafana Dashboard
 
-Password: admin
+You can visualize **MySQL** and **PostgreSQL** metrics directly in Grafana.
+**Default credentials:**
+
+* **Username:** `admin`
+* **Password:** `admin`
