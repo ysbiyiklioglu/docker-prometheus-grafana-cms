@@ -27,7 +27,8 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/ysbiyiklioglu/docker-prometheus-grafana-cms.git
-cd cms-monitoring-stack
+cd docker-prometheus-grafana-cms
+
 ```
 
 Start the services:
